@@ -35,7 +35,7 @@ jobs:
       
       # 6️⃣ Subir la documentación generada como artifact
       - name: Guardar documentación generada
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: phpdocs
           path: docs/phpdocs/
